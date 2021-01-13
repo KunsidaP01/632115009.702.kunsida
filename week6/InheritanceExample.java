@@ -1,5 +1,7 @@
 package week6;
 
+//632115009 Kunsida  Phitakham
+
 public class InheritanceExample {
     public static void main(String[] args){
         Artist art = new Artist("Ball", 20,"Male");
