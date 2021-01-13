@@ -6,7 +6,7 @@ public class Person {
     int age;
     String job1,job2,job3,job4,job5;
   
-    //632115009 Kunsida Phitakham 
+    //632115009 Kunsida Phitakham
 
     public Person(){
     }
