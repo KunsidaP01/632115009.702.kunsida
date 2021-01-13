@@ -4,7 +4,7 @@ public class Circle {
     private double area,circumference;
     private static int count;
     
-    //632115009 Kunsida Phitakam fkjdk
+    //632115009 Kunsida Phitakam 
 
     public Circle(double radius){
         count++;
