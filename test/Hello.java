@@ -1,6 +1,6 @@
 package test;
 public class Hello{
     public static void main(String[] args){
-        System.out.print("Hello World yeyeye");
+        System.out.print("Hello World yeye");
     }
 }
