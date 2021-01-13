@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 public class Main{
     public static void main(String[] args){
-      
+        
         //632115009 Kunsida Phitakam
         
         Scanner input=new Scanner(System.in);
