@@ -5,7 +5,6 @@ public class Circle {
     private static int count;
     
     //632115009 Kunsida Phitakam 
-    //helloo
 
     public Circle(double radius){
         count++;
