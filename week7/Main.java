@@ -11,14 +11,23 @@ public class Main {
         dog.isShortHair("Short hair");
 
         System.out.println("\n");
-        Fish fish=new Fish("Nemo","clownfish","orange and white",3);
+        Fish fish=new Fish("Nemo","Clownfish","orange and white",3);
         fish.kind="fish";
         fish.showPetData();
         fish.swimSpeed=10;
         fish.size="Small";
         fish. SwimFast();
         fish.isSwimToTheSea("Swim to the sea");
-    }
-
     
+        System.out.println("\n");
+        Bird bird=new Bird("Elizabeth","Parrot","green",19);
+        bird.kind="bird";
+        bird.country=" Australia";
+        bird.canFly="yes";
+        bird.showPetData();
+        bird.Speak("yes");
+        bird.CheckCountrry();
+        bird.isCanFly();
+        
+    }
 }

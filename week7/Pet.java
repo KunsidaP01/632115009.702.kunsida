@@ -56,3 +56,27 @@ class Fish extends Pet{
         System.out.println(size+" Swim Speed: "+swimSpeed+" cm/s");
     }
 }
+class Bird extends Pet{
+    String country,canFly;
+    public Bird(String name,String species,String color,int age){
+        this.name=name;
+        this.species=species;
+        this.color=color;
+        this.age=age;
+    }
+    public void Speak(String speak){
+        if(speak.equals("yes")){
+            System.out.println("My "+kind+" is can speak");
+        }
+        else System.out.println("My "+kind+" is cannot speak");  
+    }  
+    public void CheckCountrry(){
+        System.out.println("My "+kind+" is from "+country);
+    }
+    public void isCanFly(){
+        if(canFly.equals("yes")){
+            System.out.println("My "+kind+" can fly");
+        }
+        else System.out.println("My "+kind+" cannot fly");  
+    }  
+}
