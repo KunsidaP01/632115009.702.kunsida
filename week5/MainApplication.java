@@ -2,6 +2,7 @@ package week5;
 
 public class MainApplication {
     public static void main(String[] args){
+        //632115009 Kunsida Phitakham
         NerfGun gun1=new NerfGun();
         gun1.fire();
         gun1.reload(15);
