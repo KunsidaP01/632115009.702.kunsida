@@ -1,7 +1,7 @@
 package test;
 public class Hello {
     public static void  main(String[] args){
-        System.out.print("Hello hi"); //ใช้ยากมากจ้า
+        System.out.print("Hello hi"); 
         //test test
     }
 }
