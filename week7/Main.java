@@ -1,5 +1,6 @@
 package week7;
 
+//632115009 Kunsida Phitakham
 public class Main {
     public static void main(String[] args){
         Dog dog=new Dog("Lucky","Pooddle","brown",2);
