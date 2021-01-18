@@ -27,7 +27,7 @@ class Dog extends Pet{
         System.out.println("My "+kind+" is run "+run);
     } 
     public void Bark(String bark){
-        System.out.println(size+" bark "+bark);
+        System.out.println("It is so "+size+" And bark "+bark);
     }
     public void isShortHair(String hair){
         if(hair.equals("Short hair")){
@@ -53,7 +53,7 @@ class Fish extends Pet{
         else System.out.println("My "+kind+"is not wim to the sea");
     }
     public void SwimFast(){
-        System.out.println(size+" Swim Speed: "+swimSpeed+" cm/s");
+        System.out.println("It's cute and "+size+" The swim Speed: "+swimSpeed+" cm/s");
     }
 }
 class Bird extends Pet{
@@ -66,12 +66,12 @@ class Bird extends Pet{
     }
     public void Speak(String speak){
         if(speak.equals("yes")){
-            System.out.println("My "+kind+" is can speak");
+            System.out.println("It can speak");
         }
         else System.out.println("My "+kind+" is cannot speak");  
     }  
     public void CheckCountrry(){
-        System.out.println("My "+kind+" is from "+country);
+        System.out.println(name+" is from "+country);
     }
     public void isCanFly(){
         if(canFly.equals("yes")){

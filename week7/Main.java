@@ -26,8 +26,9 @@ public class Main {
         bird.canFly="yes";
         bird.showPetData();
         bird.Speak("yes");
-        bird.CheckCountrry();
         bird.isCanFly();
+        bird.CheckCountrry();
+        
         
     }
 }
