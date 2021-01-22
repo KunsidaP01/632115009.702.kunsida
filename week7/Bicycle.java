@@ -5,7 +5,7 @@ public class Bicycle {
     public Bicycle(){
     }
 }
-//สร้างclass extends break speed up
+ //632115009 Kunsida Phitakham
 class NormalBicycle extends Bicycle{
     public NormalBicycle(int speed){
         currentSpeed=speed;
