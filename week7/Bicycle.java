@@ -13,7 +13,11 @@ class TheSpeed extends Bicycle{
 
         if(apply.equals("speed")){
         this.currentSpeed+=5;
-        System.out.println("Current speed : "+currentSpeed);    
+            if(currentSpeed>99){
+                currentSpeed-=5;
+                System.out.println("The current speed is too much!!");
+            }    
+            System.out.println("Current speed : "+currentSpeed);
         }
         else if(apply.equals("break")){
             this.currentSpeed-=5;
