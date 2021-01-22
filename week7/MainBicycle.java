@@ -34,4 +34,3 @@ public class MainBicycle {
 input.close();
     }
 }
-//เลือกโหมด หน้านี้ใช้if 
