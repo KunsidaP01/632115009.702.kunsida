@@ -9,12 +9,17 @@ class TheSpeed extends Bicycle{
     public TheSpeed(int speed){
         currentSpeed=speed;
     }
-    public void applySpeed(){
+    public void apply(String apply){
+
+        if(apply.equals("speed")){
         this.currentSpeed+=5;
-        System.out.println("Current speed : "+currentSpeed);
-    }
-    public void applyBreak(){
-        this.currentSpeed-=5;
-        System.out.println("Current speed : "+currentSpeed);
-    }
+        System.out.println("Current speed : "+currentSpeed);    
+        }
+        else if(apply.equals("break")){
+            this.currentSpeed-=5;
+            System.out.println("Current speed : "+currentSpeed);   
+            }
+        
+    }    
 }
+
