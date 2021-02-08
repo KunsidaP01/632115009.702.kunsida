@@ -12,6 +12,8 @@ public class Cube {
 class Rectangle extends Cube{
     int width;
     int height;
+    public Rectangle(){
+    }
     public Rectangle(int width,int height){
         this.height=height;
         this.width=width;
