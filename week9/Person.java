@@ -59,9 +59,9 @@ class FootballPlayer extends Person{
         System.out.println("I'm a football player and work in "+workPlace);
     }
 }
-class Student extends Person{
+class PersonalData extends Person{
     String college;
-    public Student(String name,int bornYear,String college){
+    public PersonalData(String name,int bornYear,String college){
         super(name,bornYear);
         this.college=college;
     }

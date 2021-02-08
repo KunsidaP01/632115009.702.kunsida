@@ -8,7 +8,7 @@ public class Testoverride1 {
     person3= new Teacher("Ball",1977,"CMU"); 
     person4= new PrimeMinister("Tu",1954,"Thailand");
     person5= new FootballPlayer("Messi",1987,"Bacelona football club"); 
-    person6= new Student("Kunsida",2001,"CMU"); 
+    person6= new PersonalData("Kunsida",2001,"CMU"); 
 
 
     person1.introduce();
