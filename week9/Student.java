@@ -3,13 +3,16 @@ package week9;
 public class Student{
     private String firstname="Hello";
     private String lastname="World";
-    //Student(String fname,String lname){}
+    public Student(String fname,String lname){
+        this.firstname=fname;
+        this.lastname=lname;
+    }
     //overiding toString
     public String toString(){
-        return "My first name "+firstname+" last name "+lastname;
+      return "My first name "+firstname+" last name "+lastname;
     }
     public static void main(String[] args){
-        Student p = new Student();
+        Student p = new Student("Kunsida","Phitakham");
         System.out.println(p.toString());
     }
 }
