@@ -1,3 +1,4 @@
+package week10;
 public class Human{
     public void hit(Animal animal){
         System.out.println(animal.roar());

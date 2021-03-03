@@ -1,4 +1,5 @@
-public class Person {
+
+package week10;public class Person {
     public void hit(Animal animal){
         System.out.println(animal.roar());
     }
